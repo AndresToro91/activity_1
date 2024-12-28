@@ -1,0 +1,107 @@
+.carrito {
+    position: fixed;/* Posición fija */
+    right: 0;/* Posición fija en la parte superior derecha */
+    top: 0;/* Posición fija en la parte superior derecha */
+    width: 350px;/* Ancho de 350px */
+    height: 100%;/* Altura del 100% */
+    background-color: #fbe8d3;/* Color de fondo */
+    box-shadow: -2px 0 5px rgba(0,0,0,0.5);/* Sombra */
+    transform: translateX(100%);/* Transformación para que esté fuera de la pantalla */
+    transition: transform 0.3s ease-in-out;/* Transición de 0.3s */
+    padding: 20px;/* Padding de 20px */
+    z-index: 1000;/* Z-index para que esté por encima de los demás elementos */
+
+}
+
+
+.cart {
+    position: fixed;/* Posición fija */
+    right: 0;/* Posición fija en la parte superior derecha */
+    top: 0;/* Posición fija en la parte superior derecha */
+    width: 350px;/* Ancho de 350px */
+    height: 100%;/* Altura del 100% */
+    background-color: #fbe8d3;/* Color de fondo */
+    box-shadow: -2px 0 5px rgba(0,0,0,0.5);/* Sombra */
+    transform: translateX(100%);/* Transformación para que esté fuera de la pantalla */
+    transition: transform 0.3s ease-in-out;/* Transición de 0.3s */
+    padding: 20px;/* Padding de 20px */
+    z-index: 1000;/* Z-index para que esté por encima de los demás elementos */
+
+}
+
+
+.carrito.open {
+    transform: translateX(0);/* Transformación para que esté en la pantalla */
+}
+
+.cart-list {
+    display: flex;/* Hace que los items sean flexibles */
+    align-items: center;/* Alinea los items de forma vertical */
+    margin-right: 10px;/* Margen a la derecha de 10px */
+    margin-bottom: 15px;/* Margen abajo de 15px */
+}
+
+.cart-cantidad-control {
+    display: flex;/* Hace que los items sean flexibles */
+    align-items: center;/* Alinea los items de forma vertical */
+}
+
+.cart-cantidad-control button {
+    margin-right: 10px;/* Margen a la derecha de 10px */
+}
+
+.cart-cantidad-control button:last-child {
+    margin-right: 0;/* Margen a la derecha de 0 */
+}
+
+.cart-book-image-cart {
+    width: 50px; /* Ajusta el ancho según sea necesario */
+    height: 80px;/* Ajusta la altura según sea necesario */
+    margin-right: 10px; /* Ajusta el margen según sea necesario */
+}
+
+.cart-span {
+    margin-right: 10px; /* Ajusta el margen según sea necesario */
+}
+
+.cart-bot-btn {
+    display: flex;/* Hace que los items sean flexibles */
+    justify-content: space-between;/* Alinea los items de forma horizontal */
+    margin: 10px auto;/* Margen de 10px arriba y abajo y automático a los lados */
+}
+
+.cart-title {
+    font-size: 1.2em;/* Tamaño de la fuente */
+    font-weight: bold;/* Fuente en negrita */
+    background-color: #f2aa26;/* Color de fondo */
+    text-align: center;/* Alineación del texto al centro */
+    width: 100%; /* Ancho del 100% */
+    box-sizing: border-box;/* Caja de borde */
+    position: absolute; /* Posición absoluta */
+    top: 0;/* Posición absoluta en la parte superior */
+    left: 0;/* Posición absoluta en la parte izquierda */
+    padding: 10px 0;/* Padding de 10px arriba y abajo y 0 a los lados */
+}
+
+.back-button {
+    position: absolute;/* Posición absoluta */
+    left: 10px;/* Posición absoluta en la parte izquierda */
+    top: 10px;/* Posición absoluta en la parte superior */
+}
+
+
+.cart-container{
+    margin-top: 50px;/* Margen arriba de 50px */
+}
+
+.cart-vacio {/* Clase para el carrito vacío */
+    font-size: 1.5em;/* Tamaño de la fuente */
+    text-align: center;/* Alineación del texto al centro */
+    margin-top: 50px;/* Margen arriba de 50px */
+}
+.shopping-cart-icon {
+    width: 30px;/* Ancho de 30px */
+    height: 30px;/* Altura de 30px */
+    margin-right: 10px;/* Margen a la derecha de 10px */
+    background-color: #f2aa26;/* Color de fondo */
+}

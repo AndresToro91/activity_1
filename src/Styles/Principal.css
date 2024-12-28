@@ -1,0 +1,29 @@
+.libro-container {
+    display: flex;
+    flex-wrap: wrap;/* se agrega envoltura de flex */
+    justify-content: space-around;/* se agrega justificación de espacio alrededor */
+    background-color: #f7d395;
+}
+
+.center-text {
+    text-align: center;/* se agrega alineación de texto */
+}
+
+.libro-container-det {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));/* se agrega plantilla de cuadrícula */
+    max-width: 1200px;
+    max-height: 700px;
+    margin: 0 auto;
+    overflow-y: auto;
+}
+
+.libro-container-det > * {
+    flex: 1 1 40%; /* Esto hará que los elementos ocupen aproximadamente el 40% del ancho del contenedor, pero se ajustarán para evitar el desbordamiento */
+    max-width: 65%; /* Esto limitará el ancho de los elementos al 65% del contenedor */
+    margin: 10px; /* Esto agregará un poco de espacio alrededor de los elementos */
+}
+
+.body {
+    background-color: #f7d395;
+}

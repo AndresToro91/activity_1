@@ -1,0 +1,23 @@
+.card {
+    text-align: center;/*centra el texto*/
+    border-radius: 15px;/*redondea las esquinas*/
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);/*sombra*/
+    padding: 10px;
+    margin: 10px;
+    background-color: #fbe8d3;/*color de fondo*/
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.card-book-image{
+    display: block;/*muestra el elemento como bloque*/
+    margin: 0 auto;/*centra la imagen*/
+    border-radius: 15px;/*redondea las esquinas*/
+    width: 180px;/*ancho de la imagen*/
+    height: 290px;/*alto de la imagen*/
+    object-fit: cover;/*ajusta la imagen al contenedor*/
+    margin-bottom: 10px;
+}

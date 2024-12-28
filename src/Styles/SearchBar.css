@@ -1,0 +1,51 @@
+.Top-Search {
+    overflow: hidden;
+    background-color: #f2aa26;
+    display: flex;
+    justify-content: flex-end; /* Alinear a la derecha */
+    margin-right: 5px;
+}
+
+.Top-Search .Search-container {
+    display: flex;
+    align-items: center;
+}
+
+.Top-Search input[type=text] {
+    padding: 6px;
+    font-size: 17px;
+    border: none;
+    border-radius: 25px;
+    width: 300px;
+}
+
+.Top-Search .Search-container button {
+    padding: 6px 10px;
+    margin-left: 5px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.Top-Search .Search-container button:hover {
+    background: #ccc;
+}
+
+@media screen and (max-width: 600px) {/* Se aplica a pantallas con un ancho máximo de 600px */
+    .Top-Search {
+        justify-content: center;
+    }
+    .Top-Search .Search-container {/* Se aplica a los elementos dentro de .Top-Search */
+        flex-direction: column;
+    }
+    .Top-Search input[type=text], .Top-Search .Search-container button {/* Se aplica a los elementos dentro de .Top-Search */
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+    }
+    .Top-Search input[type=text] {/* Se aplica a los elementos dentro de .Top-Search */
+        border: 1px solid #ccc;
+    }
+}

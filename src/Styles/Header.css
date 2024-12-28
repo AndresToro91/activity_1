@@ -1,0 +1,20 @@
+.header {
+    background-color: #4A90E2; /* Un color azul agradable */
+    width: 100%;/* Ancho del 100% */
+    height: 100px;/* Altura de 100px */
+    display: flex;/* Hace que los items sean flexibles */
+
+
+}
+
+.header-container {
+    width: 100%;/* Ancho del 100% */
+    height: 100%;
+    display: flex;/* Hace que los items sean flexibles */
+}
+
+.header-img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;/* Ajusta la imagen al tamaño del contenedor */
+}

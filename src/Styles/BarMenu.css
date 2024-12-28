@@ -1,0 +1,33 @@
+.sidebar {
+    width: 100%;/* Ancho del 100% */
+    background-color: #f2aa26;/* Color de fondo */
+    overflow: auto;
+}
+
+.sidebar-container {
+    display: flex;/* Hace que los items sean flexibles */
+    justify-content: flex-start; /* Alinea los item a la izquierda */
+    align-items: center; /* Centro los items de forma vertical */
+}
+
+.sidebar-item {
+    padding: 6px 8px;/* Padding de 6px arriba y abajo y 8px a los lados */
+    text-decoration: none;/* Quita la decoración del texto */
+    font-size: 20px;/* Tamaño de la fuente */
+    color: #000000;
+    display: flex;/* Hace que los items sean flexibles */
+    align-items: center;/* Alinea los items de forma vertical */
+}
+
+.sidebar-item i {
+    margin-right: 10px;/* Margen a la derecha de 10px */
+}
+
+.sidebar-item:hover {
+    background-color: #ddd;/* Color de fondo al pasar el mouse */
+    color: #000;/* Color de la fuente al pasar el mouse */
+}
+
+.sidebar-search {
+    margin-left: auto; /* Mueve el item a la derecha con una margen automatica de la izquierda*/
+}
