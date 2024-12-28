@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { useParams } from "react-router-dom";
 import {LibrosContext} from "../Context/LibroContext.jsx";
-import {OwnButton} from "../Components/ownbutton.jsx";
+import {OwnButton} from "../Components/OwnButton.jsx";
 import { useCart } from "../Context/CartContext.jsx";
 
 
